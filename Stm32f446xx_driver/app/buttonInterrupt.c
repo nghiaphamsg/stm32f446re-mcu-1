@@ -1,8 +1,7 @@
 /*
  * buttonInterrupt.c
  *
- *  Created on: Feb 15, 2020
- *      Author: $NghiaPham$
+ *  Created on: Feb 15, 2020 Author: $NghiaPham$
  */
 
 #include "stm32f446xx.h"
@@ -34,7 +33,8 @@ int main(void)
 
 	GPIO_Init(&GPIOLed);
 
-	//Configuration enable GPIO Button with trigger an interrupt whenever button press
+	//Configuration enable GPIO Button with trigger an interrupt whenever button
+	//press
 	GPIOBtn.pGPIOx = GPIOC;
 
 	GPIOBtn.GPIO_PinConfig.GPIO_PinNumber 		= GPIO_PIN_NO_13;
