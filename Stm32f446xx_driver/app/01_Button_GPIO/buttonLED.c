@@ -13,6 +13,7 @@
 
 #include "stm32f446xx.h"
 #include "stm32f446xx_gpio_driver.h"
+#include <string.h>
 
 #define HIGH			1
 #define BTN_PRESSED 	HIGH
